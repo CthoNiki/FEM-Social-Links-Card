@@ -104,12 +104,12 @@
 
   .left {
     bottom: -35%;
-    left: -25rem;
+    left: -45%;
   }
 
   .right {
     top: -25%;
-    right: -30rem;
+    right: -45%;
   }
 
   .bottom {
@@ -221,14 +221,40 @@
     opacity: 1;
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: 450px) {
+
+    .decorationWrapper {
+      width: 50%;
+      max-width: 800px;
+    }
+
+  .right {
+    top: -25%;
+    right: -30rem;
+  }
+
+  .left {
+    bottom: -35%;
+    left: -25rem;
+  }
+
+}
+
+  @media (min-width: 1120px) {
+
+    .decorationWrapper {
+      width: 100%;
+      max-width: 1000px;
+    }
 
     .right {
-      top: -50%;
+      top: -25%;
+      right: -30rem;
     }
 
     .left {
-      bottom: -50%;
+      bottom: -35%;
+      left: -25rem;
     }
 
   }
