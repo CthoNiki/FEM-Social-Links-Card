@@ -70,13 +70,14 @@
   }
 
   .pageWrapper {
-    max-width: min(100%; 100vw);
-    height: 100dvh;
+    width: max(100vw, 100%);
+    height: max(100dvh, 100%);
     background: rgb(34,31,61);
     background: linear-gradient(180deg, rgba(34,31,61,1) 0%, rgba(29,27,40,1) 100%);
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
     overflow: hidden;
     scrollbar-width: none;
   }
