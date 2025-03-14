@@ -104,12 +104,12 @@
 
   .left {
     bottom: -35%;
-    left: -40%;
+    left: -25rem;
   }
 
   .right {
     top: -25%;
-    right: -50%;
+    right: -30rem;
   }
 
   .bottom {
@@ -225,12 +225,10 @@
 
     .right {
       top: -50%;
-      right: -18%;
     }
 
     .left {
       bottom: -50%;
-      left: -15%;
     }
 
   }
