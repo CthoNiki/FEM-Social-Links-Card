@@ -224,11 +224,13 @@
   @media (min-width: 768px) {
 
     .right {
-      right: -50%;
+      top: -50%;
+      right: -18%;
     }
 
     .left {
-      left: -40%;
+      bottom: -50%;
+      left: -15%;
     }
 
   }
