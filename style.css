@@ -230,12 +230,12 @@
 
     .right {
         top: -5%;
-        right: -15%;
+        right: -15rem;
     }
 
     .left {
-        bottom: -15%;
-        left: -15%;
+        bottom: -5%;
+        left: -15rem;
     }
 
 }
