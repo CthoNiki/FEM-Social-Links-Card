@@ -84,7 +84,12 @@
 
   .decorationWrapper {
     position: absolute;
-    width: min(400px, 40%);
+    width: 40%;
+    max-width: 1000px;
+  }
+
+  .decorationWrapper img {
+    width: 100%;
   }
 
   .bottomLeft {
@@ -110,12 +115,12 @@
   }
 
   .card {
-    background: rgb(34,31,61);
     background: linear-gradient(0deg, rgba(34,31,61,0) 0%, rgba(123,18,71,0.2) 44%, rgba(237,1,84,1) 100%);
     border-radius: 20px;
-    width: min(600px, 100%-3em);
+    width: 90%;
+    max-width: 400px;
     margin: var(--spacing200);
-    padding: var(--spacing200);
+    padding: var(--spacing400) var(--spacing200);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -127,7 +132,7 @@
   }
 
   .imgWrapper {
-    width: 50%;
+    width: 40%;
   }
 
   .imgWrapper img {
@@ -140,6 +145,7 @@
     justify-content: center;
     align-items: center;
     gap: 0.75rem;
+    width: 100%;
   }
 
   .copyWrapper h1 {
@@ -152,8 +158,9 @@
 
   .copyWrapper h2 {
     color: var(--accentColor);
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 400;
+    text-transform: uppercase;
   }
 
   .buttonWrapper {
