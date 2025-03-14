@@ -224,19 +224,19 @@
   @media (min-width: 450px) {
 
     .decorationWrapper {
-      width: 50%;
-      max-width: 800px;
+      width: 70%;
+      max-width: 700px;
     }
 
-  .right {
-    top: -25%;
-    right: -30rem;
-  }
+    .right {
+        top: -5%;
+        right: -15%;
+    }
 
-  .left {
-    bottom: -35%;
-    left: -25rem;
-  }
+    .left {
+        bottom: -15%;
+        left: -15%;
+    }
 
 }
 
